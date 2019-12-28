@@ -1,0 +1,81 @@
+/* 
+    Created on : 29-oct-2019, 13:42:52
+    Author     : Juan Carlos Arguello
+*/
+body{
+    background:  	#000066; /*#EEE */
+    font-family: 	 Arial, Verdana, sans-serif;
+    font-size: 		small;
+    margin:		0px;
+    padding:		0px;
+}
+
+body.landing {
+    background:  	 #000066; /* 059 */
+    font-family: 	 Arial, Verdana, sans-serif;
+    font-size:          small;
+    margin:		0px;
+    padding:            0px;
+}
+
+.big_button{
+	width: 95px; height : 30px; 
+}
+
+.bold, .label {
+	font-weight:    bold;
+}
+
+span.form_label {
+	font-weight:    bold;
+	width:			200px; 
+	float:			left;
+}
+
+
+div.login_title {
+	text-align: 	center;
+	width: 			80%;
+	background: 	#cccccc;/*#CDE*/
+	margin: 		0px;
+	padding: 		5px 0px;
+	font-weight : 	bold;
+	letter-spacing: 2px;
+}
+
+div.login_form {
+    text-align: 	left;
+    width: 		30%;
+    margin: 		35%;
+    margin-top: 	35px;
+    background: 	#cccccc;  /* CDE */
+    padding: 		30px;
+    border: 		1px;
+    border-style:solid;
+    border-color:#CDE;
+    border-radius: 15px;
+}
+
+div.login_form.large { 
+    border-color:#FFF;	
+    font-size: large;
+}
+
+
+div.login_form.medium { 
+    border: 4px;
+    border-style:solid;
+    border-color: #FFF;	
+    font-size: medium;
+}
+
+div.messages_rounded {
+    background-color:	#000066;
+    color:		white;
+    margin: 		3px;
+    padding:		3px;
+    border-style:   solid;
+    border-color:   #059;
+    border-radius:  10px;
+}
+
